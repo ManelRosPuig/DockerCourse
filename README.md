@@ -8,3 +8,5 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 ### Containers
 Containers are a way to package our applications with all the dependencies it contains. Containers are very portable. Easy to share between devs and ops.
+
+<img src="https://raw.githubusercontent.com/ManelRosPuig/DockerCourse/main/Container.png" width=400 height=325>
