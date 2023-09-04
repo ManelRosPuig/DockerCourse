@@ -1,7 +1,5 @@
 ﻿# Docker Course
-This repository is created for **docker learning purposes**. It contains notes and code examples.
-
-![](https://raw.githubusercontent.com/ManelRosPuig/DockerCourse/main/notes/Docker%20drawio.png)
+This repository is created for **docker learning purposes**. It contains notes and code examples. The course is available for free in youtube: https://www.youtube.com/watch?v=4Dko5W96WHg
 
 ## What is docker?
 Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
@@ -32,3 +30,7 @@ Containers are created from images. Containers multiple layers of images. Each l
 Virtual machines (VMs) and Docker containers are both technologies used in the field of virtualization, but they serve different purposes and have distinct characteristics. Here's a comparison of VMs and Docker containers:
 
 <img src="https://raw.githubusercontent.com/ManelRosPuig/DockerCourse/main/notes/VMvsContainer.png" width=400 heigth=650>
+
+## Summary
+
+![](https://raw.githubusercontent.com/ManelRosPuig/DockerCourse/main/notes/Docker%20drawio.png)
