@@ -27,3 +27,8 @@ devs and ops to collaborate on building and deploying code to a production envir
 Containers are created from images. Containers multiple layers of images. Each layer is an actual image. The bottom layer is the linux distribution. The top image is the technology one (ex: python, mysql, node).
 
 <img src="https://raw.githubusercontent.com/ManelRosPuig/DockerCourse/main/notes/Layers.png" width=400 heigth=650>
+
+### Virtual Machine vs Container
+Virtual machines (VMs) and Docker containers are both technologies used in the field of virtualization, but they serve different purposes and have distinct characteristics. Here's a comparison of VMs and Docker containers:
+
+<img src="https://raw.githubusercontent.com/ManelRosPuig/DockerCourse/main/notes/VMvsContainer.png" width=400 heigth=650>
