@@ -7,4 +7,3 @@ This repository is created for **docker learning purposes**. It contains notes a
 - [Port Mapping](port_mapping/README.md)
 - [Dockerfile](dockerfile/README.md)
 - [Docker Network](network/README.md)
-- [Docker Compose](docker_compose/README.md)
