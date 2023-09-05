@@ -74,3 +74,35 @@ docker rm [container_id/container_name]
 ```
 Deletes a container with a container id or container name.
 <br><br>
+
+## Docker run
+Docker run is a command that simplifies the actions required to download an image, create a container and run it by unifying it into a single command called docker run. It is the fastest way to create a container. The steps of docker run are the following:
+1. Searches the image
+- 1.1. If the image is not downloaded, it searches it in the Docker Hub and downloads it.
+2. Create a container
+3. Start the container
+
+```bash
+ㅤ
+docker run mongo
+ㅤ
+```
+This command creates a container with a random name and no port mapped, it runs it automatically and show the logs of this command attached to the terminal. If we exit the logs process, the 
+container stops.
+<br><br>
+
+```bash
+ㅤ
+docker run -d mongo
+ㅤ
+```
+This -d option is "dettached", so it doesn't show the logs after running the container.
+<br><br>
+
+```bash
+ㅤ
+docker run --name monguito -p27017:27017 -d mongo
+ㅤ
+```
+We can apply all the previous command options to this run command.
+<br><br>
