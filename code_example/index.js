@@ -8,7 +8,7 @@ const Animal = mongoose.model('Animal', new mongoose.Schema({
 
 const app = express()
 
-mongoose.connect('mongodb://manel:12345aA@localhost:27017/miapp?authSource=admin')
+mongoose.connect('mongodb://manel:12345aA@monguito:27017/miapp?authSource=admin')
 
 app.get('/', async (_req, res) => {
   console.log('listando... chanchitos...')
