@@ -27,3 +27,9 @@ Containers are created from images. Containers multiple layers of images. Each l
 Virtual machines (VMs) and Docker containers are both technologies used in the field of virtualization, but they serve different purposes and have distinct characteristics. Here's a comparison of VMs and Docker containers:
 
 <img src="https://raw.githubusercontent.com/ManelRosPuig/DockerCourse/main/introduction/VMvsContainer.png" width=400 heigth=650>
+
+### Docker Desktop
+Docker desktop is a software that enables us to work with containers and images. It is available on all platforms. Docker desktop is a virtual machine. It is optimized and runs linux.
+It can execute containers. It can access the file system and the internal and external network. Docker Desktop also includes Docker Compose, CLI.
+
+<img src="https://raw.githubusercontent.com/ManelRosPuig/DockerCourse/main/introduction/docker%20desktop.png" width=400 heigth=650>
